@@ -1,17 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "ChatApp ",
+  "description": "ChatApp Backend",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "build": "npm install && npm install --prefix Frontend && npm run bulid --prefix Frontend"
+    "start": "node index.js",
+    "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
   },
-  "keywords": [
-    "MERN"
-  ],
+  "keywords": ["MERN", "ChatApp"],
   "author": "Akhilesh",
   "license": "ISC",
   "dependencies": {
