@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
+    "dev": "nodemon index.js",
+    "install-frontend": "npm install --prefix Frontend",
+    "build-frontend": "npm run build --prefix Frontend",
+    "build": "npm install && npm run install-frontend && npm run build-frontend"
   },
   "keywords": ["MERN", "ChatApp"],
   "author": "Akhilesh",
